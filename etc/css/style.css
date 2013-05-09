@@ -1,25 +1,21 @@
 /* Stylesheet - Reset / clear browser style
 -------------------------------------------------------------- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	background: transparent;
-	border: 0;
-	margin: 0;
-	padding: 0;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	background:transparent;
+	border:0;
+	margin:0;
+	padding:0;
 	text-align:left;
 }
-input, a, img {
-	outline:0;
-}
-/* =Studio Impact FTW!
+
+input, a, img{ outline:0; }
+
+/* Stylesheet Studio Impact FTW!
 -------------------------------------------------------------- */
+
 html, body {
 	padding:0;
 	margin:0;
@@ -27,8 +23,67 @@ html, body {
 	font-size:14px;
 	text-align:left;
 	font-family:Calibri, Helvetica, sans-serif;
-	color:#0e3753;
+	color:#FFFFFF;
 	line-height:22px;
 	height:100%;
 }
+
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth{width:100%;}
+.bgheight{height:100%;}
+
+.centre{margin:0 auto;}
+.maxwidth{width:988px;}
+.hwidth{width:698px;text-shadow:1px 1px 1px #000000;}
+.clear{height:1%;clear:both;}
+.noview{display:none;}
+
+#container { position:relative; z-index:2; }
+
+#head { height:75px; clear:both; display:block; position:relative; }
+
+.logo {
+	width:397px;
+	height:64px;
+	background:url('../img/logo.png') top left no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#menu {
+	height:58px;
+	position:absolute;
+	top:17px;
+	float:right;
+	right:0;
+}
+#menu ul {
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	list-style:none;
+	float:left;
+	white-space:nowrap;
+	padding-left:30px;
+}
+#menu ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline-block;
+	width:auto;
+	height:53px;
+	padding-left:20px;
+	float:left;
+}
+#menu ul li a {
+	color:#FFFFFF;
+	font-size:22px;
+  text-decoration:none;
+  text-shadow:2px 2px 5px #000000;
+	display:inline-block;
+}
+
+#menu ul li a:hover { text-decoration:underline; }
 
